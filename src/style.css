@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "MADE Mirage";
+    src: url("./assets/fonts/MADE_Mirage_Regular.otf");
+}
+
+@font-face {
+    font-family: "Sugar Snow";
+    src: url("./assets/fonts/Sugar_Snow.otf");
+}
