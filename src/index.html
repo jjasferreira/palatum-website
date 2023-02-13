@@ -1,10 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Palatum - Savoring Southern Europe</title>
+    <meta name="description" content="TODO DESCRIPTION" />
+    <meta name="author" content="José João Ferreira" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta charset="UTF-8" />
   </head>
-  <body></body>
+
+  <body class="overflow-x-hidden">
+    <!-- Layout -->
+    <div class="w-auto flex flex-col bg-denim">
+      <!-- Logo -->
+      <div class="absolute z-10 w-36 left-[2.5%]">
+        <img src="assets/img/logo.png" alt="Palatum Logo" />
+      </div>
+      <!-- Navigation -->
+      <div
+        class="flex gap-10 md:gap-20 m-5 items-center justify-end text-sm font-semibold bg-denim text-platinum"
+      >
+        <a href="#">Locations</a>
+        <a href="#">Menus</a>
+        <a href="#">Deals</a>
+        <a href="#">Catering</a>
+      </div>
+      <!-- Dish Highlight -->
+      <div class="bg-dairycream">
+        <div class="md:flex">
+          <!-- Image Section -->
+          <div class="md:w-1/2 lg:w-2/3">
+            <div class="relative w-full h-full">
+              <!-- Badges -->
+              <div
+                class="absolute z-0 flex items-end justify-end px-10 py-8 gap-5 w-full h-full"
+              >
+                <div
+                  class="px-2.5 py-0.5 rounded-lg border-[3px] bg-tabasco border-dairycream"
+                >
+                  <p
+                    class="text-sm font-sugarsnow text-platinum tracking-[4px]"
+                  >
+                    New
+                  </p>
+                </div>
+                <div
+                  class="px-2.5 py-0.5 rounded-lg border-[3px] bg-jungle border-dairycream"
+                >
+                  <p
+                    class="text-sm font-sugarsnow text-platinum tracking-[4px]"
+                  >
+                    Vegan
+                  </p>
+                </div>
+              </div>
+              <!-- Image -->
+              <img
+                class="max-h-[34rem] w-full h-full object-cover object-center"
+                src="assets/img/dish_highlight.png"
+                alt="Eggplant Parmigiana"
+              />
+            </div>
+          </div>
+          <!-- Text Section -->
+          <div class="md:w-1/2 lg:w-1/3 flex flex-col items-start p-10 gap-8">
+            <div
+              class="text-xl font-mirage font-bold text-jungle leading-[1.1]"
+            >
+              Bringing you the best of both worlds
+            </div>
+            <p class="text-sm font-inter font-medium text-jungle leading-tight">
+              The new vegan Eggplant Parmigiana recipe combines the classic
+              taste and texture of the traditional dish with a plant-based
+              twist.<br /><br />Enjoy a healthier and more sustainable version
+              of the beloved Italian classic, while still indulging in the rich,
+              satisfying flavors you love.
+            </p>
+            <div
+              class="px-4 py-1.5 mx-auto rounded-lg shadow cursor-pointer bg-jungle hover:bg-jungle-2 text-platinum hover:text-platinum-2"
+            >
+              <p class="text-xs font-inter font-medium">Read more</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Locations -->
+      <div class="flex flex-col gap-10 py-20 items-center justify-start">
+        <div class="flex flex-col -gap-2 text-center text-platinum">
+          <p class="text-xl font-mirage font-bold">Locations</p>
+          <p class="text-sm font-inter font-medium">
+            Find your new favorite restaurant
+          </p>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-10 md:gap-16 px-10 md:px-20">
+          <div class="flex flex-col lg:w-1/2">
+            <div>
+              <img
+                class="w-full md:h-96 lg:h-80 object-cover object-center"
+                src="assets/img/loc_dnv_cpw.png"
+                alt="Photograph of the restaurant"
+              />
+            </div>
+            <div
+              class="flex flex-col gap-1 px-6 py-5 h-full bg-jungle text-platinum"
+            >
+              <div class="flex gap-4 items-center justify-start">
+                <p class="text-md sm:text-lg font-mirage font-bold">
+                  City Park West
+                </p>
+                <div class="px-2 py-0.5 border-2 rounded-full border-platinum">
+                  <p class="text-xs text-center font-inter font-medium">
+                    Denver, CO
+                  </p>
+                </div>
+              </div>
+              <p class="text-xs font-inter font-medium">
+                Step into the old world charm of Europe with our restaurant
+                located near the City Park of Denver. Our decor emulates the
+                classic elegance of European dining, with vintage fixtures and
+                warm lighting creating an inviting atmosphere.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col lg:w-1/2">
+            <div>
+              <img
+                class="w-full md:h-96 lg:h-80 object-cover object-center"
+                src="assets/img/loc_dnv_usn.png"
+                alt="Photograph of the restaurant"
+              />
+            </div>
+            <div
+              class="flex flex-col gap-1 px-6 py-5 h-full bg-jungle text-platinum"
+            >
+              <div class="flex gap-4 items-center justify-start">
+                <p class="text-md sm:text-lg font-mirage font-bold">
+                  Union Station
+                </p>
+                <div class="px-2 py-0.5 border-2 rounded-full border-platinum">
+                  <p class="text-xs text-center font-inter font-medium">
+                    Denver, CO
+                  </p>
+                </div>
+              </div>
+              <p class="text-xs font-inter font-medium">
+                Nestled in the heart of downtown, it offers a relaxing dining
+                experience that breaks away from the fast-paced city life. Come
+                escape the hustle and bustle of the city and enjoy a taste of
+                tradition at our restaurant.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
