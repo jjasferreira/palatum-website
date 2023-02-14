@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontSize: {
       "4xl": "92.59px",
@@ -29,9 +28,7 @@ module.exports = {
       "platinum": "#E6E6E6",
       "platinum-2": "#F2F2F2",
     },
-    extend: {
-    },
+    extend: {},
   },
-
   plugins: [],
-}
+};

@@ -11,3 +11,9 @@
     font-family: "Sugar Snow";
     src: url("./assets/fonts/Sugar_Snow.otf");
 }
+
+@layer base {
+    html {
+        font-family: "Inter", sans-serif;
+    }
+}
